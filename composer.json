@@ -15,7 +15,5 @@
       "Owuan\\LumenFormRequest\\": "./src/LumenFormRequest"
     }
   },
-  "require": {
-    "laravel/lumen-framework": "^7.0"
-  }
+
 }
