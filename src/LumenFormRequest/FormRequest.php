@@ -63,7 +63,7 @@ class FormRequest extends Request
      */
     protected function passedValidation()
     {
-        //
+        // do nothing
     }
 
 
