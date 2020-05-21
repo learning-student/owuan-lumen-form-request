@@ -9,6 +9,10 @@ use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 
+/**
+ * Class FormRequest
+ * @package Owuan\LumenFormRequest
+ */
 class FormRequest extends Request
 {
 
@@ -44,7 +48,7 @@ class FormRequest extends Request
     {
         $app = app();
 
-        return \Illuminate\Support\Facades\Validator::make($this->validationData(),
+        return Validator::make($this->validationData(),
             $app->call([$this, 'rules']),
             $app->call([$this, 'messages']),
             $app->call([$this, 'attributes'])
