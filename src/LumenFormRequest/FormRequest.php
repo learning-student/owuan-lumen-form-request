@@ -48,7 +48,8 @@ class FormRequest extends Request
     {
         $app = app();
 
-        return Validator::make($this->validationData(),
+
+        return $app->make('validator')->make($this->validationData(),
             $app->call([$this, 'rules']),
             $app->call([$this, 'messages']),
             $app->call([$this, 'attributes'])
