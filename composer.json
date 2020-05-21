@@ -1,0 +1,20 @@
+{
+  "name": "owuan/lumen-form-request",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "vserifsaglam",
+      "email": "vahit.serif119@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Owuan\\LumenFormRequest": "./src"
+    }
+  },
+  "require": {
+    "laravel/lumen": "7.*"
+  }
+}
