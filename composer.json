@@ -16,6 +16,6 @@
     }
   },
   "require": {
-    "laravel/lumen": "7.*"
+    "laravel/lumen-framework": "^7.0"
   }
 }
